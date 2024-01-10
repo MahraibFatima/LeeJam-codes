@@ -63,3 +63,14 @@ print(list(a), end = '')
 
 ch = "2"
 print(int(ch))
+
+
+
+'''I'd suggest if you are absolute beginner then start learning Numpy, and build a thorough understanding of Pandas(for data analysis). 
+When you get comfortable with these then move to visualization libraries like Matplotlib, Seaborn, and Plotly. 
+One important thing to notice here is don't just learn how to draw a bar diagram, histogram, scatterplots and so on. 
+Learn to interpret the graphs you draw, it's very crucial. 
+Also ,learn when to use which plot and try to grasp topics of basic Statistics. 
+Then start learning Scikit-Learn and jump into ML. '''
+So after you get a moderate overview of these libraries then make some beginner-level projects on your own apply in your skills 
+in Kaggle datasets of your interest and also learn from other Kagglers notebook codes. Good luck!
