@@ -24,3 +24,12 @@ Both **Regression and Classification algorithms** are used to predict in Machine
   
 [**Classification:**](https://www.simplilearn.com/regression-vs-classification-in-machine-learning-article#classification_in_machine_learning_explained)
 Classification is an algorithm that finds functions that help divide the dataset into classes based on various parameters.
+
+
+**Unsupervised learing:**
+  Find interesting data patterns in your unlabeled data.
+   [*Clustering*](https://www.geeksforgeeks.org/clustering-in-machine-learning/) is basically a collection of objects on the basis of similarity and dissimilarity between them. 
+
+  | DNA microarray |  Google News | tech ppl grping |
+  | --------       | ------------ | -------------- |
+  
