@@ -1,15 +1,15 @@
 # Machine Learning 
 - Supervised learning 
-- unsupervosed learning
-- reinforcement learning
+- Unsupervosed learning
+- Reinforcement learning
 - 
 **Supervised learing**:
     input -> output [lables]
-  examples:
-  |**input**          |  **output[lable]**       |  **applications**|
+  Examples:
+  |**Input**          |  **Output[lable]**       |  **Applications**|
   | -------           |    -----------           | ---------------  |
-  |English            |  Spanish                 |  machine translation|
-  |email              |  Spam?( 0 or 1)          |  Spamming filter|
+  |English            |  Spanish                 |  Machine translation|
+  |Email              |  Spam?[ 0 or 1]          |  Spamming filter|
   |Audio              |  Text                    |  Speech recognition| 
-  |ads,user info      |  [click 0 or 1]          |  online Aadvertisements or surveys|
-  |image [phone]      |  defect[0 or 1]          |  visual inspection [***Visual inspection** examines objects or systems for defects, damages, and other issues.*]|
+  |Ads,user info      |  Click[0 or 1]          |  Online Aadvertisements or surveys|
+  |Image [phone]      |  Defect[0 or 1]          |  Visual inspection [***Visual inspection** examines objects or systems for defects, damages, and other issues.*]|
