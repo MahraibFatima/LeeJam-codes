@@ -16,6 +16,7 @@ public:
         for (int i = 0; i < n+1; ++i) {
             arr[i] = -1;
         }
+
         if(arr[n] !=-1){
             res = arr[n];
         }else{
@@ -23,13 +24,5 @@ public:
             arr[n] = res;
         }
         return res;
-        // if (n==0 || n==1)
-        //     return n;
-        // else if(n==2)
-        //     return 1;
-        // else if(n == 3)
-        //     return 2;
-        // else
-        //     return fib(n-1) + fib(n-2);
     }
 };
