@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int cal_fib(int n) {
+    /*int cal_fib(int n) {
         if (n==0 || n==1)
             return n;
         else if(n==2)
@@ -26,5 +26,17 @@ public:
             }            
         }
         return res;
-    }
+    }*/
+    int fib(int n){
+        if (n==0 || n==1)
+            return n;
+        int fir = 0, sec = 1;
+        for(int i=2; i<=n; ++i){
+            int num = fir + sec;
+            fir = sec;
+            sec = num;
+        }
+    return sec;
+    
+}
 };
