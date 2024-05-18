@@ -12,6 +12,7 @@ public:
                 }
             }
             nums = newNums;
+            newNums.clear();
             n /= 2;
         }
         return nums[0];
