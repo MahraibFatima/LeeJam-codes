@@ -8,24 +8,16 @@ public:
             hash[nums[i]]++;
         }
 
-        int count = 0;
         int index1 = 0;
-        while(count<hash[0]){
-            nums[index1]=0;
-            index1++;
-            count++;
+        for(int i=0; i<hash[0]; i++){
+            nums[index1++]=0;
         }
-        count=0;
-        while(count<hash[1]){
-            nums[index1]=1;
-            index1++;
-            count++;
+
+        for(int i=0; i<hash[1]; i++){
+            nums[index1++]=1;
         }
-        count=0;
-        while(count<hash[2]){
-            nums[index1]=2;
-            index1++;
-            count++;
+        for(int i=0; i<hash[2]; i++){
+            nums[index1++]=2;
         }
     }
 };
