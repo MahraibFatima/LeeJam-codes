@@ -1,40 +1,14 @@
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        int slow=nums[0], fast=nums[0];
-
-        while(true){
-            slow=nums[slow];
-            fast=nums[nums[fast]];
-            if(slow==fast){
-                break;
-            }
-        }   
-        slow=nums[0];
-        while(slow!=fast){
-            slow=nums[slow];
-            fast=nums[fast];
+        map <int, int> mpp;
+        for(int i=0; i<nums.size(); i++){
+            mpp[nums[i]]++;
         }
-        return slow;
+        for(const auto& pair : mpp){
+            if(pair.second >= 2)
+                return pair.first;
+        }
+        return -1;
     }
-    /*int binarySearch(vector<int>& nums){
-        int left = 1, right = nums.size() - 1;
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            int count = 0;
-            for (int num : nums) {
-                if (num <= mid) {
-                    count++;
-                }
-            }
-            (count > mid) 
-                ? right = mid 
-                : left = mid + 1;
-            }
-            return left;
-        }
-    int findDuplicate(vector<int>& nums) {
-        int dup = binarySearch(nums);
-        return dup;
-    }*/ 
 };
