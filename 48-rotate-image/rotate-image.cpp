@@ -22,12 +22,9 @@ void swap_columns(vector<vector<int>>& matrix) {
     }
 }
 
-
 public:
     void rotate(vector<vector<int>>& matrix) {
-        //int rows = matrix.size(), cols = matrix[0].size();
         transpose(matrix);
         swap_columns(matrix);
-
     }
 };
