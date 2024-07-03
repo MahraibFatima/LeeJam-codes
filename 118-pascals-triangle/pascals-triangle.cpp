@@ -6,8 +6,8 @@ class Solution {
 
         // calculate the rest of the elements:
         for (int col = 1; col < row; col++) {
-            ans = ans * (row - col);
-            ans = ans / col;
+            ans *= (row - col);
+            ans /= col;
             ansRow.push_back(ans);
         }
         return ansRow;
