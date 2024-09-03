@@ -2,7 +2,7 @@ class Solution {
     int sumOfDigits(string num_str) {
         int sum = 0;
         for (char digit : num_str) {
-            sum += digit - '0'; // Convert character to integer and add to sum
+            sum += digit - '0';
         }
         return sum;
     }
