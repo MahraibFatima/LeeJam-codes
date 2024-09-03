@@ -1,4 +1,8 @@
 class Solution {
+public:
+    int numberOfSubarrays(vector<int>& nums, int k) {
+        return helper(nums, k) - helper(nums, k - 1);
+    }
 // Similar logic to Binary Subarrays With Sum
 private:
     int helper(vector<int>& nums, int k) {
@@ -14,8 +18,4 @@ private:
         return cnt;
     }
 
-public:
-    int numberOfSubarrays(vector<int>& nums, int k) {
-        return helper(nums, k) - helper(nums, k - 1);
-    }
 };
